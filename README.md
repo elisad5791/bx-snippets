@@ -16,3 +16,10 @@ PropertyTable, IblockTable, ORM, run-time поле, грид
 [changes.php](https://github.com/elisad5791/bx-snippets/blob/main/local/templates/.default/components/bitrix/lists.list/.default/include/changes.php)
 
 Названия элементов выведены курсивом. Данные модифицированы через result_modifier.php (можно также подключить свои стили и скрипты) с дальнейшим подключением системного шаблона, который обновляется.
+
+### Кастомный шаблон для экспорта Списка в формате Excel
+
+[template.php](https://github.com/elisad5791/bx-snippets/blob/main/local/templates/.default/components/bitrix/lists.export.excel/.default/template.php)
+[composer.json](https://github.com/elisad5791/bx-snippets/blob/main/local/composer.json)
+
+Использован пакет phpoffice/phpspreadsheet, который поставлен через composer. 
