@@ -1,0 +1,12 @@
+{
+    "name": "elisad5791/local",
+    "authors": [
+        {
+            "name": "elisad5791",
+            "email": "elisad5791@mail.ru"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^2.1"
+    }
+}
