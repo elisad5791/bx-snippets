@@ -3,5 +3,6 @@
 !/README.md
 !/.gitignore
 !/local
+!/medicine
 
 /local/vendor
