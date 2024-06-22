@@ -33,6 +33,7 @@ PropertyTable, IblockTable, ORM, run-time поле, грид
 [add-procedure.php](https://github.com/elisad5791/bx-snippets/blob/main/medicine/add-procedure.php)
 [Events.php](https://github.com/elisad5791/bx-snippets/blob/main/local/classes/Events.php)
 [events.php](https://github.com/elisad5791/bx-snippets/blob/main/local/php_interface/include/events.php)
+[migrations](https://github.com/elisad5791/bx-snippets/tree/main/local/php_interface/migrations)
 
 ORM для инфоблоков (списков), получение и добавление данных, разные типы полей списка (файл, привязка к элементам другого списка), IblockTable, PropertyTable, работа с запросом, кнопки из библиотеки интерфейсов битрикса, создание нового пункта в главном меню через js, миграции
 
