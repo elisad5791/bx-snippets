@@ -4,5 +4,6 @@
 !/.gitignore
 !/local
 !/medicine
+!/crm_sandbox
 
 /local/vendor
