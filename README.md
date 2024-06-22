@@ -38,3 +38,18 @@ PropertyTable, IblockTable, ORM, run-time поле, грид
 ORM для инфоблоков (списков), получение и добавление данных, разные типы полей списка (файл, привязка к элементам другого списка), IblockTable, PropertyTable, работа с запросом, кнопки из библиотеки интерфейсов битрикса, создание нового пункта в главном меню через js, миграции
 
 Врачи и  процедуры, привязанные к врачам. Добавление врачей, процедур. Сделано на списках.
+
+### Песочница CRM
+
+Сниппеты кода для работы с сущностями CRM
+
+#### Справочники
+
+[Все справочники](https://github.com/elisad5791/bx-snippets/blob/main/crm_sandbox/all-refs.php)
+
+[Все значения справочника (полная форма)](https://github.com/elisad5791/bx-snippets/blob/main/crm_sandbox/ref-all-values.php)
+
+[Все значения справочника (краткая форма)](https://github.com/elisad5791/bx-snippets/blob/main/crm_sandbox/ref-all-values-short.php)
+
+[Первое значение справочника](https://github.com/elisad5791/bx-snippets/blob/main/crm_sandbox/ref-first-value.php)
+
