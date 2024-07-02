@@ -63,6 +63,7 @@ ORM для инфоблоков (списков), получение и доба
 [CommentEventHandler.php](https://github.com/elisad5791/bx-snippets/blob/main/local/classes/DealAddHandlers/CommentEventHandler.php)
 [InvoiceEventHandler.php](https://github.com/elisad5791/bx-snippets/blob/main/local/classes/DealAddHandlers/InvoiceEventHandler.php)
 [QuoteEventHandler.php](https://github.com/elisad5791/bx-snippets/blob/main/local/classes/DealAddHandlers/QuoteEventHandler.php)
+[AddDealInterface.php](https://github.com/elisad5791/bx-snippets/blob/main/local/classes/DealAddHandlers/AddDealInterface.php)
 
 При создании сделки вызывается диспетчер из фабрики, который запускает нужный обработчик в зависимости от типа сделки - для типа Продажа в таймлайне создается комментарий с типом сделки, для типа Комплексная продажа - создается привязанный к сделке счет, для типа Продажа товара - создается привязанное к сделке Коммерческое предложение. 
 
