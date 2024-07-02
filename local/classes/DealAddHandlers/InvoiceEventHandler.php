@@ -5,9 +5,9 @@ namespace DealAddHandlers;
 use Bitrix\Crm\Service\Container;
 use CCrmOwnerType;
 
-class InvoiceEventHandler
+class InvoiceEventHandler implements AddDealInterface
 {
-    public static function onAfterAdd($fields)
+    public static function onAfterAdd(array $fields): void
     {
         $invoice = [
             'PARENT_ID_2' => $fields['ID'],

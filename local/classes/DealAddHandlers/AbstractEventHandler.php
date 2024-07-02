@@ -7,9 +7,8 @@ abstract class AbstractEventHandler
     public static function onDealAddDispatcher($fields)
     {
         $handler = EventHandlerFactory::create($fields['TYPE_ID']);
-        if (!$handler) {
-            return;
+        if ($handler instanceof AddDealInterface) {
+            $handler->onAfterAdd($fields);
         }
-        $handler->onAfterAdd($fields);
     }
 }

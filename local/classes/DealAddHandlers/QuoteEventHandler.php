@@ -4,9 +4,9 @@ namespace DealAddHandlers;
 
 use CCrmQuote;
 
-class QuoteEventHandler
+class QuoteEventHandler implements AddDealInterface
 {
-    public static function onAfterAdd($fields)
+    public static function onAfterAdd(array $fields): void
     {
         $data = [
             'DEAL_ID' => $fields['ID'],

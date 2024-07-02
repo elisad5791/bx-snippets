@@ -6,9 +6,9 @@ use Bitrix\Crm\Timeline\CommentEntry;
 use CCrmOwnerType;
 use CCrmStatus;
 
-class CommentEventHandler
+class CommentEventHandler implements AddDealInterface
 {
-    public static function onAfterAdd($fields)
+    public static function onAfterAdd(array $fields):void
     {
         $ref = 'DEAL_TYPE';
         $values = CCrmStatus::GetStatus($ref);
