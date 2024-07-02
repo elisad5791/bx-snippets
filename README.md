@@ -53,3 +53,18 @@ ORM для инфоблоков (списков), получение и доба
 
 [Первое значение справочника](https://github.com/elisad5791/bx-snippets/blob/main/crm_sandbox/ref-first-value.php)
 
+### Работа с событиями
+
+#### Абстрактная фабрика для обработчиков события создания сделки
+
+[events.php](https://github.com/elisad5791/bx-snippets/blob/main/local/php_interface/include/events.php)
+[AbstractEventHandler.php](https://github.com/elisad5791/bx-snippets/blob/main/local/classes/DealAddHandlers/AbstractEventHandler.php)
+[EventHandlerFactory.php](https://github.com/elisad5791/bx-snippets/blob/main/local/classes/DealAddHandlers/EventHandlerFactory.php)
+[CommentEventHandler.php](https://github.com/elisad5791/bx-snippets/blob/main/local/classes/DealAddHandlers/CommentEventHandler.php)
+[InvoiceEventHandler.php](https://github.com/elisad5791/bx-snippets/blob/main/local/classes/DealAddHandlers/InvoiceEventHandler.php)
+[QuoteEventHandler.php](https://github.com/elisad5791/bx-snippets/blob/main/local/classes/DealAddHandlers/QuoteEventHandler.php)
+
+При создании сделки вызывается диспетчер из фабрики, который запускает нужный обработчик в зависимости от типа сделки - для типа Продажа в таймлайне создается комментарий с типом сделки, для типа Комплексная продажа - создается привязанный к сделке счет, для типа Продажа товара - создается привязанное к сделке Коммерческое предложение. 
+
+CCrmStatus, CommentEntry, CCrmQuote, создание новых счетов
+
