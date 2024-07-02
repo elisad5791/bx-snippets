@@ -13,8 +13,12 @@ class Events
 
         $js = <<<JS
             <script>
-            BX.ready(function () {                
+            BX.ready(function () {
                 const menuBox = document.querySelector('.menu-items');
+                
+                if (menuBox == null) {
+                    return;
+                }
                 
                 const menuItem1 = document.createElement('li');
                 const linkItem1 = document.createElement('a');
