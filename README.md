@@ -69,3 +69,14 @@ ORM для инфоблоков (списков), получение и доба
 
 CCrmStatus, CommentEntry, CCrmQuote, создание новых счетов
 
+### Бизнес-процессы
+
+#### Простое активити для бизнес-процесса
+
+[helloworldactivity.php](https://github.com/elisad5791/bx-snippets/blob/main/local/activities/custom/helloworldactivity/helloworldactivity.php)
+[.description.php](https://github.com/elisad5791/bx-snippets/blob/main/local/activities/custom/helloworldactivity/.description.php)
+
+Простое активити, которое делает запись в журнал. Задаются обращение и комментарий.
+
+BaseActivity, PropertiesDialog
+
