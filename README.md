@@ -97,7 +97,7 @@ BaseActivity, PropertiesDialog
 
 Создание своей таблицы для хранения групп. Создание вкладки Группы контактов в разделе CRM. Во вкладке выводится комплексный компонент, который состоит из двух простых компонентов - Список групп и Карточка группы. Список выводится с помощью грида crm.interface.grid. Карточка с помощью компонента crm.interface.form.
 
-### Модуль Очистка
+#### Модуль Очистка
 
 [elisad.clean](https://github.com/elisad5791/bx-snippets/tree/main/local/modules/elisad.clean)
 
